@@ -1,4 +1,4 @@
-from rest_framework import generics
+from rest_framework import generics, permissions
 # from snippets.models import Snippet
 # from snippets.serializers import SnippetSerializer
 from .models import Peaks
@@ -15,13 +15,15 @@ from rest_framework import status
 # class ListPeaks(generics.ListAPIView):
 #     queryset = Peaks.objects.all()
 #     serializer_class = DjangoapiSerializer
-class DetailPeaks(generics.RetrieveAPIView):
-    queryset = Peaks.objects.all()
-    serializer_class = DjangoapiSerializer    
+# class DetailPeaks(generics.RetrieveAPIView):
+
+#     queryset = Peaks.objects.all()
+#     serializer_class = DjangoapiSerializer    
 
 
 
 class ListPeaks(APIView):
+    permission_classes = (permissions.IsAuthenticated,)
     """
     List all snippets, or create a new snippet.
     """
@@ -38,6 +40,7 @@ class ListPeaks(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class DetailPeaks(APIView):
+    permission_classes = (permissions.IsAuthenticated,)
     """
     Retrieve, update or delete a peaks instance.
     """
