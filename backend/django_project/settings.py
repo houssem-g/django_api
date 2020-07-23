@@ -41,17 +41,25 @@ INSTALLED_APPS = [
     'djangoapi.apps.DjangoapiConfig',
     # api
     'rest_framework',
+    'rest_framework.authtoken',
     'rest_framework_swagger',
     'corsheaders',
+    
 ]
 
 REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',  # <-- And here
+    ],
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.AllowAny',
+        # ici on donne la permission seulement à ceux qui sont authentifiés
+        # et juste plus haut on a dit que pour l'authentification on utilise TokenAuthentication
+        'rest_framework.permissions.IsAuthenticated',
         
 
     ],
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema'
+ 
 }
 
 

@@ -23,7 +23,7 @@ from rest_framework import status
 
 
 class ListPeaks(APIView):
-    permission_classes = (permissions.IsAuthenticated,)
+    # permission_classes = (permissions.IsAuthenticated,)
     """
     List all snippets, or create a new snippet.
     """
@@ -40,7 +40,7 @@ class ListPeaks(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class DetailPeaks(APIView):
-    permission_classes = (permissions.IsAuthenticated,)
+    # permission_classes = (permissions.IsAuthenticated,)
     """
     Retrieve, update or delete a peaks instance.
     """
