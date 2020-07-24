@@ -10,6 +10,7 @@ import Paper from '@material-ui/core/Paper';
 
 const useStyles = makeStyles({
   table: {
+    
     minWidth: 650,
     border: 'solid',
     backgroundColor: '#C3BDBD',

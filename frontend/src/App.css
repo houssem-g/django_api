@@ -41,10 +41,13 @@
 h1{
   display: inline-block
 } 
+#motherClass{
+  display:block;
+}
 
 #title{
 
-  background-color : rgb(220, 110, 241);
+  background-color : #44FFD2;
 
   height: 120px; 
   width:100%;
@@ -62,3 +65,4 @@ h1{
 #divButton > * {
   width: 160px;
 }
+

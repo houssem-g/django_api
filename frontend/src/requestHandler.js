@@ -3,7 +3,7 @@ class  Requests {
     constructor(options) {
         this.options = options
         this.options.headers= {}
-        this.options.headers.Authorization = 'token d34a596df943a1c86a6f5650475b0ff5da56a007'
+        this.options.headers.Authorization = process.env.REACT_APP_TOKEN
         
         this.data = []
     }
@@ -19,12 +19,16 @@ class  Requests {
     }
     // function used to post data to database
     postData = async () =>{
+        var result = ""
         // axios agit comme un fetch
+        console.log('options: ', this.options)
         await axios(this.options).then(() => {
+            result="Success"
         }).catch(err => {
             console.log(err);
+            result = "error"
         })
-        return "Success"
+        return result
     }
     // function used to update data in database
     putData = async () =>{

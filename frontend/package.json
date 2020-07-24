@@ -13,6 +13,8 @@
     "@webcomponents/webcomponentsjs": "^2.4.3",
     "antd": "^4.4.3",
     "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^2.0.0",
     "i": "^0.3.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
