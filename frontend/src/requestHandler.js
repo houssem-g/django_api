@@ -21,7 +21,6 @@ class  Requests {
     postData = async () =>{
         var result = ""
         // axios agit comme un fetch
-        console.log('options: ', this.options)
         await axios(this.options).then(() => {
             result="Success"
         }).catch(err => {

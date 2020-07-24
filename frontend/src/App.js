@@ -61,6 +61,7 @@ class App extends Component {
         args.method = this.state.verb
         args.url= this.state.url
         let newObj = new Requests(args)
+        this.setState({showForm: false})
         newObj.getData().then((val) => {this.setState({data: val})})
         }
 
