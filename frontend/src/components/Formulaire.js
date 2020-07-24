@@ -17,6 +17,9 @@ class Register extends Component {
     };
   }
 
+  cancelForm() {
+    this.props.visibilityForm(false)
+  }
   onSendRequest(){
     this.props.changeData(this.state)
   }
@@ -67,7 +70,7 @@ class Register extends Component {
                 </div>
                 <div className='submit'>
                   {/* <button type="button" onClick={this.closeWindow()}>Cancel</button> */}
-                  <button>Cancel</button>
+                  <button onClick={this.cancelForm.bind(this)}>Cancel</button>
                   <button id='sendButton' onClick={this.onSendRequest.bind(this)}>Send</button>
                 </div>
               </form>

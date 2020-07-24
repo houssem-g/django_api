@@ -44,6 +44,7 @@ class App extends Component {
     let verb = e.target.textContent
     var args = {}
     this.setState({verb: verb})
+    this.setState({data: []})
     
     // args.url = 'http://127.0.0.1:8000/api/'
     switch (verb) {
@@ -98,11 +99,14 @@ class App extends Component {
         newObj = new Requests(args)
         newObj.putData().then((val) => {
           val === "Success" ? window.alert("Success, the row "+ newVal.id + " has been updated") : window.alert("Error")})
+    }
+    this.setState({showForm: false})
   }
-
+  cancelTheForm(value){
+    this.setState({showForm: value})
   }
   render() {
-    const { showForm, hideID, hideBody } = this.state;
+    // const { showForm, hideID, hideBody } = this.state;
 
     return (
       <>
@@ -146,8 +150,8 @@ class App extends Component {
         </div>
         <div>
           {/* <Register visibityID={hideID} visibityBody={hideBody} changeData={this.sendRequest.bind(this)}/> */}
-          {showForm && (
-          <Register visibityID={hideID} visibityBody={hideBody} changeData={this.sendRequest.bind(this)}/>
+          {this.state.showForm && (
+          <Register visibityID={this.state.hideID} visibityBody={this.state.hideBody} changeData={this.sendRequest.bind(this)} visibilityForm={this.cancelTheForm.bind(this)}/>
           )}
         </div>
 
@@ -158,18 +162,7 @@ class App extends Component {
     )
   }
 }
-// https://www.positronx.io/how-to-build-react-data-table-with-react-table-package/
-// https://hackernoon.com/how-to-structure-your-react-app-98c48e102aad
-// https://medium.com/@leannezhang/curly-braces-versus-parenthesis-in-reactjs-4d3ffd33128f
-// https://vaadin.com/learn/tutorials/using-web-components-in-react?hss_channel=lcp-52231&utm_campaign=Learning%20Center&utm_medium=social&utm_source=linkedin&utm_content=81570794
+
 export default App
 
 
-  // used to initialise the state
-  // constructor(props) {
-  //   super(props);
-  //   // c'est similaire au concept d'héritrage en python, le bind permet de partager le context (les data)
-  //   // de la fonction getTodos et le composant associé à this (lui mm représente le bouton)
-  //   // this.getTodos = this.getTodos.bind(this)
-  // }
-  // we setup the request send here
