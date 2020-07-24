@@ -149,7 +149,7 @@ class App extends Component {
             <Button variant="contained" color="primary">DELETE</Button>
           </div>
         </div>
-        <div>
+        <div className="form">
           {/* <Register visibityID={hideID} visibityBody={hideBody} changeData={this.sendRequest.bind(this)}/> */}
           {this.state.showForm && (
           <Register visibityID={this.state.hideID} visibityBody={this.state.hideBody} changeData={this.sendRequest.bind(this)} visibilityForm={this.cancelTheForm.bind(this)}/>

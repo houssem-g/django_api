@@ -59,10 +59,15 @@ h1{
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
-
+  margin-bottom: 10px;
   
 }
 #divButton > * {
   width: 160px;
+  
 }
 
+#form {
+  background-color: #4A4E69;
+  max-height: 100vh;
+}
