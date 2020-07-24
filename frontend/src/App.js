@@ -108,7 +108,7 @@ class App extends Component {
       <>
       <div className="motherClass">
         <div id="title">
-          <h1>Mountains peaks !!</h1>
+          <h1>Monuments !!</h1>
         </div>
         <div className='wrapper'>
         <div>
