@@ -8,7 +8,7 @@ class Register extends Component {
   constructor(props) {
     super();
     this.state = {
-      // id: 0,
+      id: 0,
       lon: 0,
       lat: 0,
       altitude: 0,
