@@ -49,13 +49,13 @@ class App extends Component {
     // args.url = 'http://127.0.0.1:8000/api/'
     switch (verb) {
       case 'POST':
-        this.setState({showForm: true, hideID: true})
+        this.setState({showForm: true, hideID: true, hideBody: false})
         break;
       case 'PUT':
-        this.setState({showForm: true})
+        this.setState({showForm: true, hideID: false, hideBody: false})
         break;
       case 'DELETE':
-        this.setState({showForm: true, hideBody: true})
+        this.setState({showForm: true, hideBody: true, hideID: false})
         break;
       default:
         args.method = this.state.verb
