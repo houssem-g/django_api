@@ -50,11 +50,16 @@ INSTALLED_APPS = [
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',  # <-- And here
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+        
+        
     ],
     'DEFAULT_PERMISSION_CLASSES': [
         # ici on donne la permission seulement à ceux qui sont authentifiés
-        # et juste plus haut on a dit que pour l'authentification on utilise TokenAuthentication
-        'rest_framework.permissions.IsAuthenticated',
+        # et juste plus haut on a dit que pour l'authentification on utilise TokenAuthentication ou un autre des 3 possibles
+        'rest_framework.permissions.IsAuthenticated'
+
         
 
     ],

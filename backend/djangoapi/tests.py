@@ -1,6 +1,32 @@
-from django.test import TestCase
+from django.test import TestCase, Client
 from .models import Peaks
-class DjangoapiModelTest(TestCase):
+from .factories import PeakFactory
+from .views import DetailPeaks
+from mock import patch
+from django.urls import reverse
+from rest_framework.authtoken.models import Token
+from rest_framework.test import APIClient, APITestCase, CoreAPIClient
+import coreapi
+from requests.auth import HTTPBasicAuth
+
+import factory
+from django.contrib.auth.hashers import make_password
+from django.contrib.auth.models import User
+
+
+class SuperUserFactory(factory.django.DjangoModelFactory):
+    class Meta:
+        model = User
+
+    first_name = factory.Faker('first_name')
+    last_name = factory.Faker('last_name')
+    username = factory.Faker('email')
+    password = factory.LazyFunction(lambda: make_password('root'))
+    is_staff = True
+    is_superuser = True
+
+
+class TestDjangoapiModel(APITestCase):
     
     @classmethod
     def setUpTestData(cls):
@@ -17,3 +43,24 @@ class DjangoapiModelTest(TestCase):
         self.assertEquals(expected_object_lon, "3.5")
         self.assertEquals(expected_object_altitude, "3")
         self.assertEquals(expected_object_name, "testName")
+    
+ 
+    
+    def test_detail(self):
+        """Test the detail view for a peak object with the Django test client."""
+        # user = User.objects.get(username='testuser')
+        user = SuperUserFactory.create()
+        client = APIClient()
+        client.force_authenticate(user=user)
+        peak = PeakFactory.build()
+
+    
+        with patch.object(DetailPeaks, 'get_object', return_value=peak):
+            url = reverse('detail', kwargs={'pk': 1})
+            response = client.get(url)
+            content = response.content.decode()
+            print('content is :', content)
+            assert response.status_code == 200
+            assert str(peak.id) in content
+            assert str(peak.altitude) in content
+

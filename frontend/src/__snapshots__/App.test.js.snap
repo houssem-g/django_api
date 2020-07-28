@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="motherClass"
+  >
+    <div
+      id="title"
+    >
+      <h1>
+        Monuments !!
+      </h1>
+    </div>
+    <div
+      class="wrapper"
+    >
+      <div>
+        <div
+          class="MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <table
+            aria-label="simple table"
+            class="MuiTable-root makeStyles-table-1"
+          >
+            <thead
+              class="MuiTableHead-root"
+            >
+              <tr
+                class="MuiTableRow-root MuiTableRow-head"
+              >
+                <th
+                  class="MuiTableCell-root MuiTableCell-head"
+                  scope="col"
+                >
+                  ID
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head"
+                  scope="col"
+                >
+                  LONGITUDE
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head"
+                  scope="col"
+                >
+                  Latitude
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head"
+                  scope="col"
+                >
+                  ALTITUDE
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head"
+                  scope="col"
+                >
+                  NAME
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="MuiTableBody-root makeStyles-body-2"
+            />
+          </table>
+        </div>
+        <div
+          id="divButton"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              GET
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              POST
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              PUT
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              DELETE
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="form"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

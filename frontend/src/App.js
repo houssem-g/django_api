@@ -22,16 +22,16 @@ class App extends Component {
     super();
   }
   componentDidMount() {
-    this.state = { 
+    this.setState ({ 
       data: [], 
-      cord: { lon:"12.1", lat:"12.1", altitude:"12", name:"kaab2"}, 
-      id:"9",
+      cord: { lon:"", lat:"", altitude:"", name:""}, 
+      id:"",
       verb:"GET",
       url:"http://127.0.0.1:8000/api/",
       showForm: false,
       hideID: false,
       hideBody: false,
-    }
+    })
     // this.getTodos() 
     document.getElementById('divButton')
     .addEventListener('click', this.handleClick.bind(this))
