@@ -14,6 +14,7 @@ coreapi = "*"
 pyyaml = "*"
 django-rest-swagger = "*"
 factory-boy = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"
