@@ -35,9 +35,9 @@ services:
             dockerfile: Dockerfile.django
         volumes: 
             - /var/run/docker.sock:/var/run/docker.sock
-        command: sh -c "/wait; 
-                        pipenv run python manage.py migrate && 
-                        pipenv run python manage.py runserver 0.0.0.0:8000"
+        # command: sh -c "/wait; 
+        #                 pipenv run python manage.py migrate && 
+        #                 pipenv run python manage.py runserver 0.0.0.0:8000"
         depends_on:
             - db
         ports:
