@@ -11,8 +11,19 @@ pipeline {
     }
 
     stage('Build Django') {
-      steps {
-        sh 'docker-compose up django_back || exit 0'
+      parallel {
+        stage('Build Django') {
+          steps {
+            sh 'docker build -t django-backend -f Dockerfile.django .'
+          }
+        }
+
+        stage('Build React') {
+          steps {
+            sh 'docker build -t react-frontend -f ./frontend/Dockerfile.react .'
+          }
+        }
+
       }
     }
 
