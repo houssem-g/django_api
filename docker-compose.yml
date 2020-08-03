@@ -1,0 +1,63 @@
+
+version: "3"
+services:
+
+    jenkins: 
+        build: 
+            context: .
+            dockerfile: Dockerfile.jen
+        user: "root"
+        volumes: 
+            - ./jenkins-data:/var/jenkins_home
+            - /var/run/docker.sock:/var/run/docker.sock
+
+        ports: 
+            - "8080:8080"
+
+    react:
+        build: 
+            context: ./frontend
+            dockerfile: Dockerfile.react
+        command: sh -c "/wait;
+                        npm start 0.0.0.0:3000"
+        # volumes:
+        #     - ./frontend/volume-front:/app
+            # - node-modules:/app/frontend/node_modules
+        ports:
+            - "3000:3000"
+        depends_on:
+            - django_back
+        stdin_open: true
+
+    django_back:
+        build: 
+            context: .
+            dockerfile: Dockerfile.django
+        volumes: 
+            - /var/run/docker.sock:/var/run/docker.sock
+        command: sh -c "/wait; 
+                        pipenv run python manage.py migrate && 
+                        pipenv run python manage.py runserver 0.0.0.0:8000"
+        depends_on:
+            - db
+        ports:
+            - "8000:8000"
+        restart: always
+
+    db:
+        restart: always
+        container_name: "postgresql"
+        image: postgres
+        ports:
+            - "5432:5432"
+        
+        environment:
+            POSTGRES_PASSWORD: "root"
+            POSTGRES_USER: "postgres"
+            POSTGRES_DB: "postgres"
+            
+        
+
+
+
+

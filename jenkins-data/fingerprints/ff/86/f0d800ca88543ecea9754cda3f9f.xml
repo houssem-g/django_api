@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-07-29 10:07:42.888 UTC</timestamp>
+  <md5sum>ff86f0d800ca88543ecea9754cda3f9f</md5sum>
+  <fileName>Credential id=github name=admin/****** (GitHub Access Token)</fileName>
+  <usages>
+    <entry>
+      <string>django_api/dev</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

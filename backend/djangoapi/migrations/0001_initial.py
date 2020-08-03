@@ -9,8 +9,22 @@ class Migration(migrations.Migration):
 
     dependencies = [
     ]
+    # def generate_superuser(apps, schema_editor):
+    #     from django.contrib.auth.models import User
 
+    #     # DJANGO_DB_NAME = os.environ.get('DJANGO_DB_NAME', "default")
+    #     DJANGO_SU_NAME = 'userdocker'
+    #     DJANGO_SU_EMAIL = 'django@test.com'
+    #     DJANGO_SU_PASSWORD = 'root'
+
+    #     superuser = User.objects.create_superuser(
+    #         username=DJANGO_SU_NAME,
+    #         email=DJANGO_SU_EMAIL,
+    #         password=DJANGO_SU_PASSWORD)
+
+    #     superuser.save()
     operations = [
+        # migrations.RunPython(generate_superuser),
         migrations.CreateModel(
             name='Peaks',
             fields=[

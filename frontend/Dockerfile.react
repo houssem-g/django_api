@@ -1,0 +1,24 @@
+# pull official base image
+FROM node
+
+ENV WAIT_VERSION 2.7.2
+ADD https://github.com/ufoscout/docker-compose-wait/releases/download/$WAIT_VERSION/wait /wait
+RUN chmod +x /wait
+# set working directory
+WORKDIR /app
+
+
+# install app dependencies
+COPY ./ /app
+COPY ./package.json /app
+COPY ./package-lock.json /app
+
+
+RUN npm install react-scripts@3.4.1 -g --silent
+RUN npm install --silent
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /frontend/node_modules/.bin:$PATH
+# add app
+
+
+EXPOSE 3000

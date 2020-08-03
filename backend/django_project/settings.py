@@ -25,7 +25,7 @@ SECRET_KEY = 'eg^l$de4@l_4x495pny38)(g6&j695+7a9ww2y@mqa49l4mw56'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -114,7 +114,7 @@ DATABASES = {
         "NAME": "postgres",
         'USER': 'postgres',
         'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'HOST': '192.168.0.20', # default value 192.168.0.20, if we don't use docker please update this value to localhost
         'PORT': '5432',
     }
 }

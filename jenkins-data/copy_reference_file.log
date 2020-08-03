@@ -1,0 +1,37 @@
+--- Copying files at Wed Jul 29 08:57:27 UTC 2020
+--- Copying files at Wed Jul 29 09:23:07 UTC 2020
+INSTALLED plugins/blueocean.jpi : 1.23.2
+INSTALLED plugins/blueocean-personalization.jpi : 1.23.2
+INSTALLED plugins/docker-workflow.jpi : 1.23
+INSTALLED plugins/cloudbees-bitbucket-branch-source.jpi : 2.9.0
+INSTALLED plugins/blueocean-pipeline-api-impl.jpi : 1.23.2
+INSTALLED plugins/docker-commons.jpi : 1.17
+INSTALLED plugins/blueocean-config.jpi : 1.23.2
+INSTALLED plugins/favorite.jpi : 2.3.2
+INSTALLED plugins/blueocean-pipeline-scm-api.jpi : 1.23.2
+INSTALLED plugins/mercurial.jpi : 2.10
+INSTALLED plugins/pubsub-light.jpi : 1.13
+INSTALLED plugins/blueocean-display-url.jpi : 2.3.1
+INSTALLED plugins/jenkins-design-language.jpi : 1.23.2
+INSTALLED plugins/blueocean-git-pipeline.jpi : 1.23.2
+INSTALLED plugins/blueocean-core-js.jpi : 1.23.2
+INSTALLED plugins/blueocean-bitbucket-pipeline.jpi : 1.23.2
+INSTALLED plugins/blueocean-github-pipeline.jpi : 1.23.2
+INSTALLED plugins/jira.jpi : 3.1.1
+INSTALLED plugins/sse-gateway.jpi : 1.23
+INSTALLED plugins/blueocean-autofavorite.jpi : 1.2.4
+INSTALLED plugins/handy-uri-templates-2-api.jpi : 2.1.8-1.0
+INSTALLED plugins/blueocean-commons.jpi : 1.23.2
+INSTALLED plugins/blueocean-events.jpi : 1.23.2
+INSTALLED plugins/blueocean-rest-impl.jpi : 1.23.2
+INSTALLED plugins/blueocean-web.jpi : 1.23.2
+INSTALLED plugins/blueocean-dashboard.jpi : 1.23.2
+INSTALLED plugins/variant.jpi : 1.3
+INSTALLED plugins/blueocean-rest.jpi : 1.23.2
+INSTALLED plugins/blueocean-i18n.jpi : 1.23.2
+INSTALLED plugins/authentication-tokens.jpi : 1.4
+INSTALLED plugins/blueocean-jwt.jpi : 1.23.2
+INSTALLED plugins/blueocean-jira.jpi : 1.23.2
+INSTALLED plugins/htmlpublisher.jpi : 1.23
+INSTALLED plugins/blueocean-pipeline-editor.jpi : 1.23.2
+--- Copying files at Wed Jul 29 09:54:26 UTC 2020
