@@ -11,8 +11,14 @@ pipeline {
     }
 
     stage('Build Django') {
+      agent {
+        docker {
+          image 'python:3.7.2'
+        }
+
+      }
       steps {
-        sh 'docker-compose up django_back'
+        sh 'docker build -t Django_Backend .'
       }
     }
 
