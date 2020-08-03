@@ -10,5 +10,17 @@ pipeline {
       }
     }
 
+    stage('Build Django') {
+      steps {
+        sh 'docker-compose up django_back || exit 0'
+      }
+    }
+
+  }
+  post {
+    always {
+      cleanWs()
+    }
+
   }
 }
