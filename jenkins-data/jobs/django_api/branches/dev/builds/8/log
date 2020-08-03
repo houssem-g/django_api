@@ -1,0 +1,169 @@
+Branch indexing
+[8mha:////4Hp9TDVDb5WN04ebY88mOVKQB8rY+1JvINdBtubi4uPXAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTxVoHOJQC74CmSjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+Obtained Jenkinsfile from c7c90a557e62993817c41fca334b50a09a5e5cc2
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4IIOMN+CgvRResSEIJwbS5YWqe44mtq0GW8ugbYHDwrjAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FEFrTi8K9/PuJe2Pp8uAar2UN+1ZbOsPCV0X+/UkVieAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Fa2y31FkhJJez7tjFKDz/6+f5Y52aUiKQ7pn9WD1hHWAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/django_api_dev
+[8mha:////4J72Uj39UsyB1Tb4mk0Pbz9IW1FE39lATa+ZhCEyF1pqAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4LGdfVjYaEkOLuB+g3z7tzHYH48XyMy45s5s0nOUQz9kAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4PBKLwR6F8LTqlFUMagLPgjQ0VZfqG+YkkytdHuAHDrgAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4PmUhi48sOqf//gYHotp1TcYvx8grYJWEF2+2Z8USNlUAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+using credential github
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/houssem-g/django_api.git
+ > git init /var/jenkins_home/workspace/django_api_dev # timeout=10
+Fetching upstream changes from https://github.com/houssem-g/django_api.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress -- https://github.com/houssem-g/django_api.git +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+ > git config remote.origin.url https://github.com/houssem-g/django_api.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+ > git config remote.origin.url https://github.com/houssem-g/django_api.git # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+No valid HEAD. Skipping the resetting
+ > git clean -fdx # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/houssem-g/django_api.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress -- https://github.com/houssem-g/django_api.git +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+Checking out Revision c7c90a557e62993817c41fca334b50a09a5e5cc2 (dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c7c90a557e62993817c41fca334b50a09a5e5cc2 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b dev c7c90a557e62993817c41fca334b50a09a5e5cc2 # timeout=10
+Commit message: "Added Jenkinsfile"
+ > git rev-list --no-walk 602edcb1a6aed1ef9ae016f55f88d42d7fcb6efb # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+[8mha:////4K4cR+W2yI3HJ9Q5RncKI8Kba1DSXYfoo5BNg1TRrBEjAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4FmDMH0NchyPCfc2wVIqok0P+Tp+OPQeXkrDLVVQ+srUAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4LpyavgHs76FxCBj+QmDhHar138mOF+chwPfC9l4iEGsAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4DjnBo6ddayLSVwgC91sRXZjsOSvEzGhrodxbbhr3LIVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4ObdGmN+OASOC+nUFGzddQhZuX3Pnn062uS4moY29rvKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4IvwZmtod3MgF4iZgxPk9RiGYkY2oWdt3H87rt6Ui1SKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (scm)
+[8mha:////4NkjO4f4hH4CnQa/Vcw3k0lwgxIzZFrWJUL6K/xgeW0uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] withEnv
+[8mha:////4BAIl8cdrpWaF4fqFfTGwpUCPPT3GaKZQxtjqAwPmhpGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4MTPeLg5a+oOxCpa1PVNomzhuN8ILeJ10v45KfudpyOFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] echo
+check git connection
+[8mha:////4GVhYfG69rWh7S0F9vIKakP1zaFElp802obIsDHrD66MAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4BB33JQtGitFwdHdhHEKWIRS5YG3RKsdadcuQJmJePEzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4K1Xj2P442JKwJVzZzE3b9CwsNcOXbU0ql1AvbrHJ//lAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8un7Ki+AAAA[0m[Pipeline] }
+[8mha:////4PODbmHtArFL4N03QRcLi+pQdgyFpFMKl/cNbIhUiKM/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlPU+16H+AAjcDMm+AAAA[0m[Pipeline] // stage
+[8mha:////4ET60pODkZWa8kOQf9jOJCum5MiRj/meLffsZhMLzuk4AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYUVMrFEWThCSENJG/5ckpZ04EVfjDgQqMeHBsi1Z7/mCJkU4UHSss9h7TNqzIYyuJDZR7C+BJtbRmWnCRMEyaSdJxh6XKilbWFTVsBKwtqgDJY8uw0Z06q7aoNC1pxzLthdQe3ODB1SikLOK+VvmCNvraBLhj/MXAPOQoea82I5/ns0bXGTWLMIAAAA=[0m[Pipeline] stage
+[8mha:////4GFHipcUc4sSCgT7Wvnlo35cc4cnzBtl2ZdytihVRDGqAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (Build Django)
+[8mha:////4PMxn8IpEFtGw79HtAe+JEujKS7gjaNYwy5mYnnCD2i8AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ docker build -t django-backend -f Dockerfile.django .
+Sending build context to Docker daemon  1.241MB
+Step 1/14 : FROM python:3-alpine
+ ---> 8ecf5a48c789
+Step 2/14 : RUN apk update     && apk add build-base     && apk add --virtual build-deps gcc python3-dev musl-dev     && apk add postgresql-dev     && pip install psycopg2-binary     && apk del build-deps
+ ---> Using cache
+ ---> e6415e791189
+Step 3/14 : ENV WAIT_VERSION 2.7.2
+ ---> Using cache
+ ---> 361a7cbc5a2d
+Step 4/14 : ADD https://github.com/ufoscout/docker-compose-wait/releases/download/$WAIT_VERSION/wait /wait
+
+ ---> Using cache
+ ---> e466dc5d7cfc
+Step 5/14 : RUN chmod +x /wait
+ ---> Using cache
+ ---> b6196c6b5510
+Step 6/14 : ENV PYTHONDONTWRITEBYTECODE 1
+ ---> Using cache
+ ---> 4a8d9845c99e
+Step 7/14 : ENV PYTHONUNBUFFERED 1
+ ---> Using cache
+ ---> c694649c3c8e
+Step 8/14 : WORKDIR /app
+ ---> Using cache
+ ---> 95fda5ae9dbf
+Step 9/14 : COPY backend .
+ ---> 9b47770f453a
+Step 10/14 : RUN pip install --upgrade pip
+ ---> Running in 13490f31a301
+Collecting pip
+  Downloading pip-20.2-py2.py3-none-any.whl (1.5 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.1.1
+    Uninstalling pip-20.1.1:
+      Successfully uninstalled pip-20.1.1
+Successfully installed pip-20.2
+Removing intermediate container 13490f31a301
+ ---> ca741279de17
+Step 11/14 : RUN pip install pipenv
+ ---> Running in b0b8eadc5de8
+Collecting pipenv
+  Downloading pipenv-2020.6.2-py2.py3-none-any.whl (3.9 MB)
+Requirement already satisfied: setuptools>=36.2.1 in /usr/local/lib/python3.8/site-packages (from pipenv) (47.1.1)
+Collecting virtualenv-clone>=0.2.5
+  Downloading virtualenv_clone-0.5.4-py2.py3-none-any.whl (6.6 kB)
+Requirement already satisfied: pip>=18.0 in /usr/local/lib/python3.8/site-packages (from pipenv) (20.2)
+Collecting certifi
+  Downloading certifi-2020.6.20-py2.py3-none-any.whl (156 kB)
+Collecting virtualenv
+  Downloading virtualenv-20.0.29-py2.py3-none-any.whl (4.9 MB)
+Collecting distlib<1,>=0.3.1
+  Downloading distlib-0.3.1-py2.py3-none-any.whl (335 kB)
+Collecting filelock<4,>=3.0.0
+  Downloading filelock-3.0.12-py3-none-any.whl (7.6 kB)
+Collecting six<2,>=1.9.0
+  Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting appdirs<2,>=1.4.3
+  Downloading appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+Installing collected packages: virtualenv-clone, certifi, distlib, filelock, six, appdirs, virtualenv, pipenv
+Successfully installed appdirs-1.4.4 certifi-2020.6.20 distlib-0.3.1 filelock-3.0.12 pipenv-2020.6.2 six-1.15.0 virtualenv-20.0.29 virtualenv-clone-0.5.4
+Removing intermediate container b0b8eadc5de8
+ ---> ab5ac6d44302
+Step 12/14 : COPY ./backend/Pipfile* /app/
+ ---> 76f993428f39
+Step 13/14 : RUN pipenv install --dev
+ ---> Running in c56abd18a029
+[91mCreating a virtualenv for this project…
+[0m[91mPipfile: /app/Pipfile
+[0m[91mUsing /usr/local/bin/python3.8 (3.8.3) to create virtualenv…
+[0m[91m⠋[0m[91m Creating virtual environment...[0m[91m[0m[91m⠙ Creating virtual environment...[0m[91m⠹[0m[91m Creating virtual environment...[0m[91m[0m[91m⠸[0m[91m Creating virtual environment...[0m[91m[0m[91m⠼ Creating virtual environment...[0m[91m⠴ Creating virtual environment...[0m[91m[0m[91m⠦ Creating virtual environment...[0m[91m⠧ Creating virtual environment...[0m[91m[0m[91m⠇ Creating virtual environment...[0m[91m[0m[91m⠏ Creating virtual environment...[0m[91m⠋[0m[91m Creating virtual environment...[0m[91m⠙ Creating virtual environment...[0m[91m[0m[91m⠹ Creating virtual environment...[0m[91m[0m[91m⠸ Creating virtual environment...[0m[91m[0m[91m⠼[0m[91m Creating virtual environment...[0m[91m⠴ Creating virtual environment...[0m[91m[0m[91m⠦ Creating virtual environment...[0m[91m[0m[91m⠧[0m[91m Creating virtual environment...[0m[91m[0m[91m⠇[0m[91m Creating virtual environment...[0m[91m⠏ Creating virtual environment...[0m[91m⠋ Creating virtual environment...[0m[91m[0m[91m⠙[0m[91m Creating virtual environment...[0m[91m⠹ Creating virtual environment...[0m[91m[0m[91m⠸[0m[91m Creating virtual environment...[0m[91m[0m[91m⠼ Creating virtual environment...[0m[91m[0m[91m⠴ Creating virtual environment...[0m[91m⠦ Creating virtual environment...[0m[91m⠧ Creating virtual environment...[0m[91m[0m[91m⠇ Creating virtual environment...[0m[91mcreated virtual environment CPython3.8.3.final.0-64 in 1552ms
+  creator CPython3Posix(dest=/root/.local/share/virtualenvs/app-4PlAip0Q, clear=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/root/.local/share/virtualenv)
+    added seed packages: pip==20.2, setuptools==49.2.0, wheel==0.34.2
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+
+[0m[91m[0m[91m✔ Successfully created virtual environment![0m[91m 
+[0m[91mVirtualenv location: /root/.local/share/virtualenvs/app-4PlAip0Q
+[0mInstalling dependencies from Pipfile.lock (74d14a)…
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+Removing intermediate container c56abd18a029
+ ---> 8407a57ffdae
+Step 14/14 : EXPOSE 8000
+ ---> Running in 279ef340d736
+Removing intermediate container 279ef340d736
+ ---> 8cd27555fd5f
+Successfully built 8cd27555fd5f
+Successfully tagged django-backend:latest
+[8mha:////4AwTgXzsLtU9hrOEEpxp6smDv0Azquep+UkTrMtmXBsEAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4FE2SZH8N74rOKvdJs6L5hxETjAz43PHAb/0fpQPWtlxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4GFZDJMnAQ8Sokn/iiSJVgiLeH7WukB6aFBHviAuo4LxAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZWBBTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQHkVNMxwgAAAA==[0m[Pipeline] stage
+[8mha:////4I7UAlOlZdE380goKPUz7oEorcIQe/RDe8ijv4OzS8HcAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4BufZ4SI34oJO0zTRTKe7qzk12dGMI1diTvF7fdoRlgIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] cleanWs
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+[8mha:////4K4WbRuLM6TLSULJf6aiqeFHimebdMyF80G0sAY+g1lnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4BBIxserzBwtGnFioFWKrRDz2VktgeNlyjnUVAZ9X1VuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4OYM0gxX6he21r37wb4F84tN2nZKxKaB6+elikhmgWKzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRRImoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AKNVLj2+AAAA[0m[Pipeline] }
+[8mha:////4ElABWl5G/M/Xrt0C3Jr7awLpwNXhe1HACHepGskuH4hAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY59ptP5sXvcy+AAAA[0m[Pipeline] // withEnv
+[8mha:////4MseJp930LPUnfCdeO8HNiva/YsCB1er/GtEYyn9FldCAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9e8C3YvQAAAA==[0m[Pipeline] }
+[8mha:////4BlfyQgxgX7Wh1rmCAZ4eN5elID9sXyWCTVSQxc4TpDhAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/tuWn0vQAAAA==[0m[Pipeline] // node
+[8mha:////4BkhaArP/GWmGvTTzEOmEIPkwSSn/LPys8QWyB+F9lnIAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPy6AOvr0AAAA=[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS

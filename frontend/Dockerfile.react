@@ -9,7 +9,7 @@ WORKDIR /app
 
 
 # install app dependencies
-COPY ./ /app
+
 COPY ./package.json /app
 COPY ./package-lock.json /app
 
@@ -19,6 +19,6 @@ RUN npm install --silent
 # add `/app/node_modules/.bin` to $PATH
 ENV PATH /frontend/node_modules/.bin:$PATH
 # add app
-
+COPY ./ /app
 
 EXPOSE 3000

@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.5">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.81">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.81">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=dev</string>
+            <string>GIT_COMMIT=dfecd14f7d84241eaefc1d790db29cbf469543cb</string>
+            <string>GIT_LOCAL_BRANCH=dev</string>
+            <string>GIT_PREVIOUS_COMMIT=a1da518b789eb136504dacd0cfa4ceacb956a71a</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=b389f9756844725373f17451d4e6d844e8e96a71</string>
+            <string>GIT_URL=https://github.com/houssem-g/django_api.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.40">
+      <startTime>1596467645698</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>
