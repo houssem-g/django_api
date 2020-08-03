@@ -18,7 +18,7 @@ pipeline {
 
       }
       steps {
-        sh 'docker build -t Django_Backend .'
+        sh 'docker build -t django-backend -f Dockerfile.django .'
       }
     }
 
