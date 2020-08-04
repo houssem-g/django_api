@@ -11,10 +11,10 @@
               <disposer reference="../../../../../../.."/>
               <disposable class="hudson.plugins.ws_cleanup.Wipeout$DisposableImpl" plugin="ws-cleanup@0.38">
                 <node></node>
-                <path>/var/jenkins_home/workspace/django_api_dev_ws-cleanup_1596473164789</path>
+                <path>/var/jenkins_home/workspace/django_api_dev_ws-cleanup_1596536130440</path>
               </disposable>
-              <registered>2020-08-03 16:46:04.841 UTC</registered>
-              <disposableInfo>hudson.plugins.ws_cleanup.Wipeout$DisposableImpl:Workspace master:/var/jenkins_home/workspace/django_api_dev_ws-cleanup_1596473164789</disposableInfo>
+              <registered>2020-08-04 10:15:30.507 UTC</registered>
+              <disposableInfo>hudson.plugins.ws_cleanup.Wipeout$DisposableImpl:Workspace master:/var/jenkins_home/workspace/django_api_dev_ws-cleanup_1596536130440</disposableInfo>
             </org.jenkinsci.plugins.resourcedisposer.AsyncResourceDisposer_-WorkItem>
             <boolean>true</boolean>
           </entry>

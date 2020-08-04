@@ -10,8 +10,8 @@ WORKDIR /app
 
 # install app dependencies
 
-COPY ./package.json /app
-COPY ./package-lock.json /app
+COPY ./frontend/package.json /app
+COPY ./frontend/package-lock.json /app
 
 
 RUN npm install react-scripts@3.4.1 -g --silent
@@ -19,6 +19,6 @@ RUN npm install --silent
 # add `/app/node_modules/.bin` to $PATH
 ENV PATH /frontend/node_modules/.bin:$PATH
 # add app
-COPY ./ /app
+COPY ./frontend /app
 
 EXPOSE 3000
