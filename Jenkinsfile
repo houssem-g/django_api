@@ -26,6 +26,7 @@ pipeline {
 
       }
     }
+
     stage('Quality code') {
       agent {
         docker {
