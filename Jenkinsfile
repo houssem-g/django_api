@@ -26,6 +26,19 @@ pipeline {
 
       }
     }
+    stage('Quality code') {
+      agent {
+        docker {
+          image 'python:3.7.2'
+        }
+
+      }
+      steps {
+        sh 'pip install pipenv'
+        sh 'pipenv install --dev'
+        sh 'pylint ./backend/django_project --load-plugins pylint_django || exit 0'
+      }
+    }
 
   }
   post {

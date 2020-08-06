@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-
+import psycopg2
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_framework_swagger',
     'corsheaders',
-    
 ]
 
 REST_FRAMEWORK = {
@@ -52,19 +51,14 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',  # <-- And here
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.BasicAuthentication',
-        
-        
     ],
     'DEFAULT_PERMISSION_CLASSES': [
         # ici on donne la permission seulement à ceux qui sont authentifiés
-        # et juste plus haut on a dit que pour l'authentification on utilise TokenAuthentication ou un autre des 3 possibles
+        # et juste plus haut on a dit que pour l'authentification on utilise
+        # TokenAuthentication ou un autre des 3 possibles
         'rest_framework.permissions.IsAuthenticated'
-
-        
-
     ],
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema'
- 
 }
 
 
@@ -107,14 +101,15 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-import psycopg2
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         "NAME": "postgres",
         'USER': 'postgres',
         'PASSWORD': 'root',
-        'HOST': '192.168.0.20', # default value 192.168.0.20, if we don't use docker please update this value to localhost
+        # default value 192.168.0.20, if we don't use docker please update this value to localhost
+        'HOST': '192.168.0.20',
         'PORT': '5432',
     }
 }

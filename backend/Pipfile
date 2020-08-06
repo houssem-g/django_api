@@ -15,6 +15,7 @@ pyyaml = "*"
 django-rest-swagger = "*"
 factory-boy = "*"
 gunicorn = "*"
+pylint-django = "*"
 
 [requires]
 python_version = "3.8"
