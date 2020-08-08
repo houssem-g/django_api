@@ -1,6 +1,6 @@
 Started by user [8mha:////4BCxHkw9rTrSMPhWymDZ7TWzqDduZpZS2CY62IolSDc+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-[Thu Aug 06 10:14:27 UTC 2020] Starting branch indexing...
-[8mha:////4MzvCdoQJdJPZNZKphzYSppAkiKbF9OlkW+8VYclO8PzAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTxYecLsQC3I58djgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+[Sat Aug 08 10:55:36 UTC 2020] Starting branch indexing...
+[8mha:////4E4UWY1nBxTVblibEcab9HoQCTf5ZC2PmpoQO6Rz4QTfAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTx2W0WzwHJxlzzjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
 Examining [8mha:////4Kpz/s97XW6vKp0tZFZdhHzy+05EpF66Z2oPVBvLESSOAAAAph+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKWFQzygpKSi20tdPzyzJKE0C6srVz8gvLS5OzdVN10/JApqdH59YkAkAlVgjE6wAAAA=[0mhoussem-g/django_api
 
   Checking branches...
@@ -14,7 +14,7 @@ Examining [8mha:////4Kpz/s97XW6vKp0tZFZdhHzy+05EpF66Z2oPVBvLESSOAAAAph+LCAAAAAA
     Checking branch [8mha:////4E6vUh4VOiwB8CVTfX3ewyWdH8WcrzGT2UwkRQawzCV8AAAArx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgLmEwyCgpKSi20tdPzyzJKE0C6srVz8gvLS5OzdVN10/JApqdH59YkKlfUpSaqp+SWgYAWHpK5LUAAAA=[0mdev
       ‘Jenkinsfile’ found
     Met criteria
-Changes detected: dev (c4b9a2f560020ee8f842d71c86842fc7eb11fe72 → 43ef37f283b0d87f3ec3481949b658e4aef62b99)
+Changes detected: dev (43ef37f283b0d87f3ec3481949b658e4aef62b99 → 3126041e57b74fbfbad542b2e3fb89e2c6a8c742)
 Scheduled build for branch: dev
 
   2 branches were processed
@@ -27,5 +27,5 @@ Scheduled build for branch: dev
 
 Finished examining houssem-g/django_api
 
-[Thu Aug 06 10:14:33 UTC 2020] Finished branch indexing. Indexing took 6 sec
+[Sat Aug 08 10:55:44 UTC 2020] Finished branch indexing. Indexing took 7.5 sec
 Finished: SUCCESS
