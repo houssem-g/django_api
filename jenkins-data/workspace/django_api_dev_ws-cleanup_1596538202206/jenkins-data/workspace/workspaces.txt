@@ -1,2 +1,0 @@
-django_api/dev
-django_api_dev
