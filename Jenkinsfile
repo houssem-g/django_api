@@ -26,6 +26,7 @@ pipeline {
 
       }
     }
+
     stage('Quality code') {
       agent {
         docker {
@@ -36,7 +37,7 @@ pipeline {
       steps {
         sh 'pip install pipenv'
         sh 'pipenv install --dev'
-        sh 'pylint ./backend/django_project --load-plugins pylint_django || exit 0'
+        sh 'pipenv run pylint ./backend/django_project --load-plugins pylint_django || exit 0'
       }
     }
 
