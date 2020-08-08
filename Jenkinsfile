@@ -35,9 +35,8 @@ pipeline {
 
       }
       steps {
-        sh 'pip install pipenv'
-        sh 'pipenv install --dev'
-        sh 'pipenv run pylint ./backend/django_project --load-plugins pylint_django || exit 0'
+        sh 'pip install -r ./backend/requirements.txt'
+        sh 'pylint ./backend/django_project --load-plugins pylint_django || exit 0'
       }
     }
 
