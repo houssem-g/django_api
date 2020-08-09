@@ -1,25 +1,26 @@
-https://api.github.com/repos/houssem-g/django_api/contents/?ref=refs%2Fheads%2Fdev
+https://api.github.com/repos/houssem-g/django_api/contents/Jenkinsfile?ref=13f9ff423c3e938834a61f0637cfc297fe36cdf4
 GET
 2
 Authorization: Basic YWRtaW46NjVmNzk0MTc3ZTU0NWJhMmY2OGM2OTc0NmM4ZWI3Y2MxMWM1YTdkMQ==
 Accept-Encoding: gzip
 HTTP/1.1 200 OK
 29
-Date: Sun, 09 Aug 2020 19:29:57 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
-Server: GitHub.com
-Status: 200 OK
-X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4984
-X-RateLimit-Reset: 1597004700
-Cache-Control: private, max-age=60, s-maxage=60
-Vary: Accept, Authorization, Cookie, X-GitHub-OTP
-ETag: W/"246b85d1eeb2a0bc65bf16cfdad03409a9290cde"
-Last-Modified: Tue, 28 Jul 2020 15:30:53 GMT
 X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:repo_hook, delete:packages, delete_repo, gist, notifications, read:packages, read:public_key, repo, user, workflow, write:discussion, write:packages
 X-Accepted-OAuth-Scopes: 
 X-GitHub-Media-Type: github.v3; format=json
+Content-Encoding: gzip
+Date: Sun, 09 Aug 2020 19:59:37 GMT
+Server: GitHub.com
+Status: 304 Not Modified
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4976
+X-RateLimit-Reset: 1597004700
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: "74ff68472c4558e6a05ba0fa83bc12c88680b5ff"
+Last-Modified: Sun, 09 Aug 2020 19:29:54 GMT
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
@@ -29,11 +30,10 @@ X-XSS-Protection: 1; mode=block
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
-Content-Encoding: gzip
 Vary: Accept-Encoding
-X-GitHub-Request-Id: CB54:F96C:DA456D5:10AEFD18:5F304EB5
-OkHttp-Sent-Millis: 1597001396788
-OkHttp-Received-Millis: 1597001397006
+X-GitHub-Request-Id: CBC3:9285:E427133:115E5789:5F3055A9
+OkHttp-Sent-Millis: 1597003177022
+OkHttp-Received-Millis: 1597003177227
 
 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 2

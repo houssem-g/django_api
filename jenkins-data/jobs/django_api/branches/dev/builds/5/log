@@ -1,159 +1,0 @@
-Started by user [8mha:////4Nido/I+OSGwDbO9IaSOHVbh9MX9qhdnPZBPXeZGQ4y4AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-[8mha:////4Ld8niqsl9d7yxoAs6LVyIkTVTtGzZo5emOC1skKZoTsAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTxlQ2CaQAzjjkEjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
-Obtained Jenkinsfile from 13564a1b66a1d8ca31493cbc13451e36b70d4c50
-Running in Durability level: MAX_SURVIVABILITY
-[8mha:////4ORdONqRZsJSBTEodfWNeFP0cdEoXOC5JLKHd9hvLPxDAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
-[8mha:////4L5PZ8Bf86vMqHqMlY7DIC+xfmqaoFw+tln0vwcCmKloAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
-Running on [8mha:////4Kgfy8uPkiYxy1DAWWwMc6s7xiRLjTEmY2iIQWiBSMIXAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/django_api_dev
-[8mha:////4Lk9bzCF/5ViuYFZenhz2DnmxIxqUBvg4v75dKvNIVGIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
-[8mha:////4AGWSQOe5eVAFYPeF6KtkzG4xSd346WV4tTjSD4D+kPiAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
-[8mha:////4KNvp7Ny5Eg/UVsklp7gue7Wfb7h2bJ7l4AbXYX/IzysAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
-[8mha:////4GhlvALwG33J8424h7SMzQ/0p90sVc+sQ8nSKYC/N5uUAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
-using credential github
-Wiping out workspace first.
-Cloning the remote Git repository
-Cloning with configured refspecs honoured and without tags
-Cloning repository https://github.com/houssem-g/django_api.git
- > git init /var/jenkins_home/workspace/django_api_dev # timeout=10
-Fetching upstream changes from https://github.com/houssem-g/django_api.git
- > git --version # timeout=10
- > git --version # 'git version 2.11.0'
-using GIT_ASKPASS to set credentials GitHub Access Token
- > git fetch --no-tags --progress -- https://github.com/houssem-g/django_api.git +refs/heads/dev:refs/remotes/origin/dev # timeout=10
-ERROR: Error cloning remote repo 'origin'
-hudson.plugins.git.GitException: Command "git fetch --no-tags --progress -- https://github.com/houssem-g/django_api.git +refs/heads/dev:refs/remotes/origin/dev" returned status code 128:
-stdout: 
-stderr: remote: Enumerating objects: 1, done.        
-remote: Counting objects: 100% (1/1)        remote: Counting objects: 100% (1/1), done.        
-Receiving objects:   0% (1/6147)   Receiving objects:   1% (62/6147)   Receiving objects:   2% (123/6147)   Receiving objects:   2% (167/6147), 108.01 KiB | 194.00 KiB/s   Receiving objects:   3% (185/6147), 236.01 KiB | 221.00 KiB/s   Receiving objects:   4% (246/6147), 396.01 KiB | 252.00 KiB/s   Receiving objects:   5% (308/6147), 396.01 KiB | 252.00 KiB/s   Receiving objects:   5% (315/6147), 620.01 KiB | 297.00 KiB/s   Receiving objects:   5% (321/6147), 1.29 MiB | 425.00 KiB/s   Receiving objects:   5% (321/6147), 2.44 MiB | 609.00 KiB/s   Receiving objects:   5% (321/6147), 4.06 MiB | 888.00 KiB/s   Receiving objects:   6% (369/6147), 4.06 MiB | 888.00 KiB/s   Receiving objects:   7% (431/6147), 4.89 MiB | 1.02 MiB/s   Receiving objects:   7% (466/6147), 4.89 MiB | 1.02 MiB/s   Receiving objects:   8% (492/6147), 4.89 MiB | 1.02 MiB/s   Receiving objects:   9% (554/6147), 5.61 MiB | 1.15 MiB/s   Receiving objects:  10% (615/6147), 5.61 MiB | 1.15 MiB/s   Receiving objects:  11% (677/6147), 5.61 MiB | 1.15 MiB/s   Receiving objects:  12% (738/6147), 6.26 MiB | 1.25 MiB/s   Receiving objects:  13% (800/6147), 6.26 MiB | 1.25 MiB/s   Receiving objects:  13% (845/6147), 7.11 MiB | 1.37 MiB/s   Receiving objects:  13% (845/6147), 9.09 MiB | 1.60 MiB/s   Receiving objects:  13% (845/6147), 9.12 MiB | 748.00 KiB/s   Receiving objects:  13% (845/6147), 9.25 MiB | 450.00 KiB/s   error: RPC failed; curl 56 GnuTLS recv error (-9): A TLS packet with unexpected length was received.
-fatal: The remote end hung up unexpectedly
-fatal: early EOF
-fatal: index-pack failed
-
-	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2437)
-	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:2051)
-	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$500(CliGitAPIImpl.java:84)
-	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:573)
-	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$2.execute(CliGitAPIImpl.java:802)
-	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1132)
-	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1177)
-	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:125)
-	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:93)
-	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:80)
-	at org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-[8mha:////4E4zu3vXwbdzK7EuVvEl/Wl7cgUUxaYy3PvA/WI+1RGQAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
-[8mha:////4IRx0KNj3x3r4poqWHh1uaAoT9EvBYyXG5wefk1WfzswAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
-[8mha:////4NRzhU0EWQXF2VOlIynftcEtdBp3RZlIhbI8ijTPvtrGAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIBiQ5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BhStF0r0AAAA=[0m[Pipeline] }
-[8mha:////4LHbBkPQxOaiamMGv7Or7Oc6HHF1xQ91Rfavs3M6StdRAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEOBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h+Wl0FxvQAAAA==[0m[Pipeline] // node
-[8mha:////4HqpDb+a3gw5sugZCxY+w0S2TVeqpoBzI4OVXqEBOhK0AAAApR+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQj0iIqWssNLzCJMU6su2BfSCpexNf4A4ZIVGy1s9Jqni8oU4QDRSc7i73H1Hg5hNHlJieK/SXQJDs6y4YwUbBS20lTa48LamILS0QBKwVri02g5NExbFRn7qYKBl114pi3vYLCtzd4gFDZzCbyF+YI2+vYJsKf568A5oFB1AzFrv4cyzf+j1f0wQAAAA==[0m[Pipeline] stage
-[8mha:////4FgMNtl7vqVGT62OhPYxBzgrAQxM5BZQF8wz4gPZnkPqAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
-[8mha:////4Get/YEYWvjiyjrsJNdrJPLAqNFYrcJ+WD5FxPz+eYFvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] cleanWs
-Error when executing always post condition:
-org.jenkinsci.plugins.workflow.steps.MissingContextVariableException: Required context class hudson.FilePath is missing
-Perhaps you forgot to surround the code with a step that provides this, such as: node
-	at org.jenkinsci.plugins.workflow.steps.StepDescriptor.checkContextAvailability(StepDescriptor.java:266)
-	at org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:263)
-Caused: org.codehaus.groovy.runtime.InvokerInvocationException
-	at org.jenkinsci.plugins.workflow.cps.CpsStepContext.replay(CpsStepContext.java:496)
-	at org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:317)
-	at org.jenkinsci.plugins.workflow.cps.DSL.invokeDescribable(DSL.java:417)
-	at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:182)
-	at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:122)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:163)
-	at org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
-	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:157)
-	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:161)
-	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:165)
-	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:135)
-	at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
-Caused: java.lang.IllegalArgumentException: Failed to prepare cleanWs step
-	at org.jenkinsci.plugins.workflow.cps.DSL.invokeDescribable(DSL.java:419)
-	at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:182)
-	at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:122)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:163)
-	at org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
-	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:157)
-	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:161)
-	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:165)
-	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:135)
-	at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
-	at WorkflowScript.run(WorkflowScript:52)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.delegateAndExecute(ModelInterpreter.groovy:137)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:756)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:395)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:393)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:755)
-	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2030)
-	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2015)
-	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2056)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:745)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy)
-	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.executePostBuild(ModelInterpreter.groovy:723)
-	at ___cps.transform___(Native Method)
-	at com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:86)
-	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:113)
-	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixName(FunctionCallBlock.java:78)
-	at sun.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
-	at com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
-	at com.cloudbees.groovy.cps.Next.step(Next.java:83)
-	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)
-	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)
-	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:129)
-	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:268)
-	at com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)
-	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:18)
-	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:51)
-	at org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:185)
-	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:400)
-	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$400(CpsThreadGroup.java:96)
-	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:312)
-	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:276)
-	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:67)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:136)
-	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
-	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-
-[8mha:////4GZUHyRU9dGNwv3rsAUUSkvEPYX6SDcsK782q6OVH/YLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
-[8mha:////4JuUllpx+F+TZcAXnuDposMZf7UM5uXKxlXNk8ht8PMIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
-[8mha:////4HzNsB8AaQ8IK1mymnzNOygcZJSqQNCxcOksPpmCiHBnAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPoFIGib0AAAA=[0m[Pipeline] End of Pipeline
-
-GitHub has been notified of this commit’s build result
-
-ERROR: Error cloning remote repo 'origin'
-Finished: FAILURE

@@ -11,12 +11,12 @@ Content-Length: 2
 X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:repo_hook, delete:packages, delete_repo, gist, notifications, read:packages, read:public_key, repo, user, workflow, write:discussion, write:packages
 X-Accepted-OAuth-Scopes: 
 X-GitHub-Media-Type: github.v3; param=shadow-cat-preview; format=json
-Date: Sun, 09 Aug 2020 18:52:25 GMT
+Date: Sun, 09 Aug 2020 19:29:59 GMT
 Server: GitHub.com
 Status: 304 Not Modified
 X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4956
-X-RateLimit-Reset: 1597001048
+X-RateLimit-Remaining: 4984
+X-RateLimit-Reset: 1597004700
 Cache-Control: private, max-age=60, s-maxage=60
 Vary: Accept, Authorization, Cookie, X-GitHub-OTP
 ETag: "cb9a65b36c53d1d4b9d33c30917a5919"
@@ -30,9 +30,9 @@ Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
 Vary: Accept-Encoding
-X-GitHub-Request-Id: CA01:F969:3E59709:4AF6A6F:5F3045E9
-OkHttp-Sent-Millis: 1596999144765
-OkHttp-Received-Millis: 1596999144939
+X-GitHub-Request-Id: CB54:F96C:DA459B1:10AF0092:5F304EB6
+OkHttp-Sent-Millis: 1597001398085
+OkHttp-Received-Millis: 1597001398279
 
 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 2
