@@ -583,7 +583,7 @@ body .plugin-setup-wizard .modal-body .water-mark {
   font-size: 392px;
   position: absolute;
   display: block;
-  bottom: 0px;
+  bottom: 0;
   right: 50px;
   color: rgba(0, 0, 0, 0.05);
 }
@@ -902,7 +902,7 @@ body .plugin-setup-wizard .plugin-selector .plugins .plugin-list .plugin .websit
   height: 16px;
   font-size: 17px;
   line-height: 17px;
-  left: 0px;
+  left: 0;
   top: -1px;
 }
 body .plugin-setup-wizard .plugin-selector .plugins .plugin-list .plugin .toggle-dependency-list {
@@ -996,7 +996,7 @@ body .plugin-setup-wizard .plugin-selector .categories {
   }
 }
 body .plugin-setup-wizard .plugin-selector .categories .nav {
-  margin: 5px 0px;
+  margin: 5px 0;
 }
 body .plugin-setup-wizard .plugin-selector .categories li a {
   position: relative;
