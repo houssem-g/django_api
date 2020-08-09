@@ -1,5 +1,5 @@
 # base image
-FROM python:latest
+FROM python:3-alpine
 
 # install dependencies
 RUN apk update \
