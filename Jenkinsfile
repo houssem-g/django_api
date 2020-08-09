@@ -27,7 +27,7 @@ pipeline {
       }
     }
 
-    stage('Quality code') {
+    stage('Quality Code') {
       agent {
         docker {
           image 'python:3.7.2'
@@ -37,6 +37,12 @@ pipeline {
       steps {
         sh 'pip install -r ./backend/requirements.txt'
         sh 'pylint ./backend/django_project --load-plugins pylint_django || exit 0'
+      }
+    }
+
+    stage('Unit Test') {
+      steps {
+        sh 'docker build -t unittest -f ./backend/Dockerfile.test .'
       }
     }
 
