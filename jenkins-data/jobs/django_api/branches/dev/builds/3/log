@@ -1,0 +1,160 @@
+Started by user [8mha:////4Aq7WsnqQTZo5a3eghtp7ikNxhbszmN3TO6iPbgT1Vd0AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9jPzS4uLUXABkn/HfwgAAAA==[0mhoussem
+Replayed [8mha:////4OFcFmoVl8+Pmpwvl6yIvCgmvycqy2LBJk0iZPIVUcyxAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYp/az8JP2ULKAZ+fGJBZkQbmqZvpE+AEBgUW/PAAAA[0m#2
+[8mha:////4N+eiMjeza+GpHxNXHixce7jbQavFJFGhoeY9dT8+PkPAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTxVWkRdQCU3gQVjgAAAA==[0mConnecting to https://api.github.com using houssem/****** (GitHub Access Token)
+Obtained Jenkinsfile from 16bcc2fdb333a28eaf8d6d9e30af596000439e69
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4DtjUY42Oru2jMpLUv4Cxi+yjcqbBNvu8n/EC8XQvOZzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Fyjih5XbD6kXu8ewZHIeJ0xldJbmwS6jzRkL4XXt/KrAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BLNjkLFZ/PHVC7AmBaQv242x6bhyv/8xrQeD+6B4/CjAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/django_api_dev
+[8mha:////4CKdvFKa0UDnCp4FtMrJ05ouI5T6fc91BJSFTCEkbjEyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KyMCvuTwLW8YFRyMPSRn59ik2Ck9XQHGuDA7JJMiT4cAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Iwj1zUS60eB06b65L6IxRnl3g4aZHb8To0Zk39oJAQ8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4OU8mxuGX0i3MZ2Y2e292/hzKoNl1q4Rbgr1jIKJZN33AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+using credential github
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/houssem-g/django_api.git
+ > git init /var/jenkins_home/workspace/django_api_dev # timeout=10
+Fetching upstream changes from https://github.com/houssem-g/django_api.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.11.0'
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress -- https://github.com/houssem-g/django_api.git +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+ERROR: Error cloning remote repo 'origin'
+hudson.plugins.git.GitException: Command "git fetch --no-tags --progress -- https://github.com/houssem-g/django_api.git +refs/heads/dev:refs/remotes/origin/dev" returned status code 128:
+stdout: 
+stderr: remote: Enumerating objects: 239, done.        
+remote: Counting objects:   0% (1/239)        remote: Counting objects:   1% (3/239)        remote: Counting objects:   2% (5/239)        remote: Counting objects:   3% (8/239)        remote: Counting objects:   4% (10/239)        remote: Counting objects:   5% (12/239)        remote: Counting objects:   6% (15/239)        remote: Counting objects:   7% (17/239)        remote: Counting objects:   8% (20/239)        remote: Counting objects:   9% (22/239)        remote: Counting objects:  10% (24/239)        remote: Counting objects:  11% (27/239)        remote: Counting objects:  12% (29/239)        remote: Counting objects:  13% (32/239)        remote: Counting objects:  14% (34/239)        remote: Counting objects:  15% (36/239)        remote: Counting objects:  16% (39/239)        remote: Counting objects:  17% (41/239)        remote: Counting objects:  18% (44/239)        remote: Counting objects:  19% (46/239)        remote: Counting objects:  20% (48/239)        remote: Counting objects:  21% (51/239)        remote: Counting objects:  22% (53/239)        remote: Counting objects:  23% (55/239)        remote: Counting objects:  24% (58/239)        remote: Counting objects:  25% (60/239)        remote: Counting objects:  26% (63/239)        remote: Counting objects:  27% (65/239)        remote: Counting objects:  28% (67/239)        remote: Counting objects:  29% (70/239)        remote: Counting objects:  30% (72/239)        remote: Counting objects:  31% (75/239)        remote: Counting objects:  32% (77/239)        remote: Counting objects:  33% (79/239)        remote: Counting objects:  34% (82/239)        remote: Counting objects:  35% (84/239)        remote: Counting objects:  36% (87/239)        remote: Counting objects:  37% (89/239)        remote: Counting objects:  38% (91/239)        remote: Counting objects:  39% (94/239)        remote: Counting objects:  40% (96/239)        remote: Counting objects:  41% (98/239)        remote: Counting objects:  42% (101/239)        remote: Counting objects:  43% (103/239)        remote: Counting objects:  44% (106/239)        remote: Counting objects:  45% (108/239)        remote: Counting objects:  46% (110/239)        remote: Counting objects:  47% (113/239)        remote: Counting objects:  48% (115/239)        remote: Counting objects:  49% (118/239)        remote: Counting objects:  50% (120/239)        remote: Counting objects:  51% (122/239)        remote: Counting objects:  52% (125/239)        remote: Counting objects:  53% (127/239)        remote: Counting objects:  54% (130/239)        remote: Counting objects:  55% (132/239)        remote: Counting objects:  56% (134/239)        remote: Counting objects:  57% (137/239)        remote: Counting objects:  58% (139/239)        remote: Counting objects:  59% (142/239)        remote: Counting objects:  60% (144/239)        remote: Counting objects:  61% (146/239)        remote: Counting objects:  62% (149/239)        remote: Counting objects:  63% (151/239)        remote: Counting objects:  64% (153/239)        remote: Counting objects:  65% (156/239)        remote: Counting objects:  66% (158/239)        remote: Counting objects:  67% (161/239)        remote: Counting objects:  68% (163/239)        remote: Counting objects:  69% (165/239)        remote: Counting objects:  70% (168/239)        remote: Counting objects:  71% (170/239)        remote: Counting objects:  72% (173/239)        remote: Counting objects:  73% (175/239)        remote: Counting objects:  74% (177/239)        remote: Counting objects:  75% (180/239)        remote: Counting objects:  76% (182/239)        remote: Counting objects:  77% (185/239)        remote: Counting objects:  78% (187/239)        remote: Counting objects:  79% (189/239)        remote: Counting objects:  80% (192/239)        remote: Counting objects:  81% (194/239)        remote: Counting objects:  82% (196/239)        remote: Counting objects:  83% (199/239)        remote: Counting objects:  84% (201/239)        remote: Counting objects:  85% (204/239)        remote: Counting objects:  86% (206/239)        remote: Counting objects:  87% (208/239)        remote: Counting objects:  88% (211/239)        remote: Counting objects:  89% (213/239)        remote: Counting objects:  90% (216/239)        remote: Counting objects:  91% (218/239)        remote: Counting objects:  92% (220/239)        remote: Counting objects:  93% (223/239)        remote: Counting objects:  94% (225/239)        remote: Counting objects:  95% (228/239)        remote: Counting objects:  96% (230/239)        remote: Counting objects:  97% (232/239)        remote: Counting objects:  98% (235/239)        remote: Counting objects:  99% (237/239)        remote: Counting objects: 100% (239/239)        remote: Counting objects: 100% (239/239), done.        
+remote: Compressing objects:   1% (1/92)        remote: Compressing objects:   2% (2/92)        remote: Compressing objects:   3% (3/92)        remote: Compressing objects:   4% (4/92)        remote: Compressing objects:   5% (5/92)        remote: Compressing objects:   6% (6/92)        remote: Compressing objects:   7% (7/92)        remote: Compressing objects:   8% (8/92)        remote: Compressing objects:   9% (9/92)        remote: Compressing objects:  10% (10/92)        remote: Compressing objects:  11% (11/92)        remote: Compressing objects:  13% (12/92)        remote: Compressing objects:  14% (13/92)        remote: Compressing objects:  15% (14/92)        remote: Compressing objects:  16% (15/92)        remote: Compressing objects:  17% (16/92)        remote: Compressing objects:  18% (17/92)        remote: Compressing objects:  19% (18/92)        remote: Compressing objects:  20% (19/92)        remote: Compressing objects:  21% (20/92)        remote: Compressing objects:  22% (21/92)        remote: Compressing objects:  23% (22/92)        remote: Compressing objects:  25% (23/92)        remote: Compressing objects:  26% (24/92)        remote: Compressing objects:  27% (25/92)        remote: Compressing objects:  28% (26/92)        remote: Compressing objects:  29% (27/92)        remote: Compressing objects:  30% (28/92)        remote: Compressing objects:  31% (29/92)        remote: Compressing objects:  32% (30/92)        remote: Compressing objects:  33% (31/92)        remote: Compressing objects:  34% (32/92)        remote: Compressing objects:  35% (33/92)        remote: Compressing objects:  36% (34/92)        remote: Compressing objects:  38% (35/92)        remote: Compressing objects:  39% (36/92)        remote: Compressing objects:  40% (37/92)        remote: Compressing objects:  41% (38/92)        remote: Compressing objects:  42% (39/92)        remote: Compressing objects:  43% (40/92)        remote: Compressing objects:  44% (41/92)        remote: Compressing objects:  45% (42/92)        remote: Compressing objects:  46% (43/92)        remote: Compressing objects:  47% (44/92)        remote: Compressing objects:  48% (45/92)        remote: Compressing objects:  50% (46/92)        remote: Compressing objects:  51% (47/92)        remote: Compressing objects:  52% (48/92)        remote: Compressing objects:  53% (49/92)        remote: Compressing objects:  54% (50/92)        remote: Compressing objects:  55% (51/92)        remote: Compressing objects:  56% (52/92)        remote: Compressing objects:  57% (53/92)        remote: Compressing objects:  58% (54/92)        remote: Compressing objects:  59% (55/92)        remote: Compressing objects:  60% (56/92)        remote: Compressing objects:  61% (57/92)        remote: Compressing objects:  63% (58/92)        remote: Compressing objects:  64% (59/92)        remote: Compressing objects:  65% (60/92)        remote: Compressing objects:  66% (61/92)        remote: Compressing objects:  67% (62/92)        remote: Compressing objects:  68% (63/92)        remote: Compressing objects:  69% (64/92)        remote: Compressing objects:  70% (65/92)        remote: Compressing objects:  71% (66/92)        remote: Compressing objects:  72% (67/92)        remote: Compressing objects:  73% (68/92)        remote: Compressing objects:  75% (69/92)        remote: Compressing objects:  76% (70/92)        remote: Compressing objects:  77% (71/92)        remote: Compressing objects:  78% (72/92)        remote: Compressing objects:  79% (73/92)        remote: Compressing objects:  80% (74/92)        remote: Compressing objects:  81% (75/92)        remote: Compressing objects:  82% (76/92)        remote: Compressing objects:  83% (77/92)        remote: Compressing objects:  84% (78/92)        remote: Compressing objects:  85% (79/92)        remote: Compressing objects:  86% (80/92)        remote: Compressing objects:  88% (81/92)        remote: Compressing objects:  89% (82/92)        remote: Compressing objects:  90% (83/92)        remote: Compressing objects:  91% (84/92)        remote: Compressing objects:  92% (85/92)        remote: Compressing objects:  93% (86/92)        remote: Compressing objects:  94% (87/92)        remote: Compressing objects:  95% (88/92)        remote: Compressing objects:  96% (89/92)        remote: Compressing objects:  97% (90/92)        remote: Compressing objects:  98% (91/92)        remote: Compressing objects: 100% (92/92)        remote: Compressing objects: 100% (92/92), done.        
+Receiving objects:   0% (1/6385)   Receiving objects:   1% (64/6385)   Receiving objects:   2% (128/6385)   Receiving objects:   3% (192/6385)   Receiving objects:   4% (256/6385), 304.01 KiB | 598.00 KiB/s   Receiving objects:   5% (320/6385), 304.01 KiB | 598.00 KiB/s   Receiving objects:   5% (321/6385), 856.01 KiB | 850.00 KiB/s   Receiving objects:   5% (321/6385), 2.82 MiB | 1.41 MiB/s   Receiving objects:   5% (331/6385), 3.66 MiB | 1.46 MiB/s   Receiving objects:   6% (384/6385), 4.65 MiB | 1.55 MiB/s   Receiving objects:   7% (447/6385), 4.65 MiB | 1.55 MiB/s   Receiving objects:   8% (511/6385), 5.48 MiB | 1.56 MiB/s   Receiving objects:   9% (575/6385), 5.48 MiB | 1.56 MiB/s   Receiving objects:  10% (639/6385), 5.48 MiB | 1.56 MiB/s   Receiving objects:  11% (703/6385), 5.48 MiB | 1.56 MiB/s   Receiving objects:  11% (708/6385), 6.33 MiB | 1.58 MiB/s   Receiving objects:  12% (767/6385), 6.33 MiB | 1.58 MiB/s   Receiving objects:  13% (831/6385), 6.33 MiB | 1.58 MiB/s   Receiving objects:  13% (845/6385), 8.62 MiB | 1.85 MiB/s   Receiving objects:  13% (863/6385), 11.02 MiB | 2.00 MiB/s   Receiving objects:  13% (869/6385), 13.23 MiB | 2.12 MiB/s   Receiving objects:  13% (892/6385), 15.54 MiB | 2.23 MiB/s   Receiving objects:  14% (894/6385), 15.54 MiB | 2.23 MiB/s   Receiving objects:  14% (922/6385), 17.90 MiB | 2.32 MiB/s   Receiving objects:  15% (958/6385), 19.00 MiB | 2.30 MiB/s   Receiving objects:  15% (967/6385), 19.00 MiB | 2.30 MiB/s   Receiving objects:  15% (982/6385), 21.68 MiB | 1.22 MiB/s   Receiving objects:  15% (995/6385), 22.43 MiB | 1.18 MiB/s   Receiving objects:  15% (997/6385), 24.29 MiB | 1.14 MiB/s   Receiving objects:  15% (1008/6385), 26.06 MiB | 1.07 MiB/s   Receiving objects:  15% (1008/6385), 27.79 MiB | 1.01 MiB/s   Receiving objects:  16% (1022/6385), 27.79 MiB | 1.01 MiB/s   Receiving objects:  16% (1034/6385), 30.04 MiB | 1.85 MiB/s   Receiving objects:  16% (1034/6385), 32.32 MiB | 1.99 MiB/s   Receiving objects:  16% (1047/6385), 34.60 MiB | 2.08 MiB/s   Receiving objects:  16% (1058/6385), 35.80 MiB | 2.15 MiB/s   Receiving objects:  17% (1086/6385), 35.80 MiB | 2.15 MiB/s   Receiving objects:  17% (1092/6385), 39.17 MiB | 2.28 MiB/s   Receiving objects:  17% (1092/6385), 41.46 MiB | 2.28 MiB/s   error: RPC failed; curl 56 GnuTLS recv error (-9): A TLS packet with unexpected length was received.
+fatal: The remote end hung up unexpectedly
+fatal: early EOF
+fatal: index-pack failed
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2437)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:2051)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$500(CliGitAPIImpl.java:84)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:573)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$2.execute(CliGitAPIImpl.java:802)
+	at hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1132)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1177)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:125)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:93)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:80)
+	at org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[8mha:////4HTCO5ZGF4c+X2TUf0o7p2/EZF23UBBfnHHu9i1Fukr7AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4HXL+EMvXPOg6VCB7QVGGOI61vfz6QPkF4rXDCg1+1gdAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4HWhJXcuvmvLQ+LyqzAYnjONjjLhSVLM0ztOuXTdwSgeAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIBiQ5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8BhStF0r0AAAA=[0m[Pipeline] }
+[8mha:////4JM4TAvizHMuSu4X9xt/dx5gWg/DDYKLAqHyJ9mLZ2fYAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEOBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h+Wl0FxvQAAAA==[0m[Pipeline] // node
+[8mha:////4LIBPpBRSF44BEK7U73ke7boHIQxOHVH1bfd+PJSXd0aAAAApR+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQj0iIqWssNLzCJMU6su2BfSCpexNf4A4ZIVGy1s9Jqni8oU4QDRSc7i73H1Hg5hNHlJieK/SXQJDs6y4YwUbBS20lTa48LamILS0QBKwVri02g5NExbFRn7qYKBl114pi3vYLCtzd4gFDZzCbyF+YI2+vYJsKf568A5oFB1AzFrv4cyzf+j1f0wQAAAA==[0m[Pipeline] stage
+[8mha:////4OJw/2z7pJVG/kHNeRuBha4S8Lb1QKVF1Y0cSX2smyf7AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4G2/v5ErB6cnwAWuu942YIqa4iiTFeaT+EmknNa3N0kaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] cleanWs
+Error when executing always post condition:
+org.jenkinsci.plugins.workflow.steps.MissingContextVariableException: Required context class hudson.FilePath is missing
+Perhaps you forgot to surround the code with a step that provides this, such as: node
+	at org.jenkinsci.plugins.workflow.steps.StepDescriptor.checkContextAvailability(StepDescriptor.java:266)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:263)
+Caused: org.codehaus.groovy.runtime.InvokerInvocationException
+	at org.jenkinsci.plugins.workflow.cps.CpsStepContext.replay(CpsStepContext.java:496)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:317)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeDescribable(DSL.java:417)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:182)
+	at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:163)
+	at org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:157)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:161)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:165)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:135)
+	at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
+Caused: java.lang.IllegalArgumentException: Failed to prepare cleanWs step
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeDescribable(DSL.java:419)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:182)
+	at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:163)
+	at org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:157)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:161)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:165)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:135)
+	at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
+	at WorkflowScript.run(WorkflowScript:46)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.delegateAndExecute(ModelInterpreter.groovy:137)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:756)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:395)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:393)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:755)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2030)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2015)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2056)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:745)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.executePostBuild(ModelInterpreter.groovy:723)
+	at ___cps.transform___(Native Method)
+	at com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:86)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:113)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixName(FunctionCallBlock.java:78)
+	at sun.reflect.GeneratedMethodAccessor71.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+	at com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:129)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:268)
+	at com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:18)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:51)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:185)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:400)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$400(CpsThreadGroup.java:96)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:312)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:276)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:67)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:136)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+[8mha:////4EYOSqxAobtApW/mbnu5TJ7T8iNQaC/jrfLxAx4dxE+pAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4ICzh6LzjrUA4JOYJKJOcz10o99HSWQBHAxxm6knfsnlAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4MAC2L/ec5AENQ95yS+0DVLUPMAbPgHp1MojUx0et5ZxAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPoFIGib0AAAA=[0m[Pipeline] End of Pipeline
+
+Could not update commit status. Message: Server returned HTTP response code: -1, message: 'null' for URL: https://api.github.com/repos/houssem-g/django_api
+
+ERROR: Error cloning remote repo 'origin'
+Finished: FAILURE
