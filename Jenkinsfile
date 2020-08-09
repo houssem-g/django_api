@@ -42,7 +42,7 @@ pipeline {
 
     stage('Unit Test') {
       steps {
-        sh 'docker build -t unittest -f ./backend/Dockerfile.test .'
+        sh 'docker-compose up django_back'
       }
     }
 
