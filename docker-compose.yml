@@ -35,8 +35,9 @@ services:
             dockerfile: Dockerfile.django
         volumes: 
             - /var/run/docker.sock:/var/run/docker.sock
-        command: sh -c "/wait; 
-                        pipenv run python manage.py test  
+        command: sh -c "/wait;
+                        
+                        pipenv run python manage.py test"  
         #               && pipenv run python manage.py runserver 0.0.0.0:8000"
         depends_on:
             - db

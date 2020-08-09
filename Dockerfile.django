@@ -24,6 +24,7 @@ WORKDIR /app
 COPY backend .
 RUN pip install --upgrade pip
 RUN pip install pipenv
+RUN pipenv install mock
 COPY ./backend/Pipfile* /app/
 # depuis le dossier racine dans le container run le fichier requirements.txt
 # RUN pip install -r requirements.txt

@@ -8,7 +8,6 @@ from rest_framework.authtoken.models import Token
 from rest_framework.test import APIClient, APITestCase, CoreAPIClient
 import coreapi
 from requests.auth import HTTPBasicAuth
-
 import factory
 from django.contrib.auth.hashers import make_password
 from django.contrib.auth.models import User

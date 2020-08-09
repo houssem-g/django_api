@@ -6,7 +6,7 @@
   <usages>
     <entry>
       <string>django_api/dev</string>
-      <ranges>1-24</ranges>
+      <ranges>1-28</ranges>
     </entry>
   </usages>
   <facets/>
