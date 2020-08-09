@@ -1,6 +1,6 @@
 FROM jenkins/jenkins
 
-
+USER root
 
 RUN curl -L \
   "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose \
@@ -13,4 +13,3 @@ RUN curl -fsSLO https://get.docker.com/builds/Linux/x86_64/docker-17.04.0-ce.tgz
   && rm -r docker docker-17.04.0-ce.tgz
   # && ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
   
-USER root
