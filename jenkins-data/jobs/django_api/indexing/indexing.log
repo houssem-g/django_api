@@ -1,6 +1,6 @@
 Started by user [8mha:////4Nido/I+OSGwDbO9IaSOHVbh9MX9qhdnPZBPXeZGQ4y4AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-[Sun Aug 09 18:24:23 UTC 2020] Starting branch indexing...
-[8mha:////4BCWMqbYnYla4jZRVD1dcmkf3SPpdNkXeuUOqzUzLxEyAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTxlfL86wCU2QOdjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+[Sun Aug 09 18:52:21 UTC 2020] Starting branch indexing...
+[8mha:////4DN7RKb2z7wk4HBnIzsmeUcjLZLDhdNZUQxVzxJKOIZEAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTxlYlc6wD8Iz8BjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
 Examining [8mha:////4CwqdAJetnCEzLXPrY6VcdCdqRkzvALDp019qP2+7K0BAAAAph+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKWFQzygpKSi20tdPzyzJKE0C6srVz8gvLS5OzdVN10/JApqdH59YkAkAlVgjE6wAAAA=[0mhoussem-g/django_api
 
   Checking branches...
@@ -14,6 +14,7 @@ Examining [8mha:////4CwqdAJetnCEzLXPrY6VcdCdqRkzvALDp019qP2+7K0BAAAAph+LCAAAAAA
     Checking branch [8mha:////4AsOPbaHVoDwmBsMA97s55uOzSbgLBaLQHL2GjI27c0lAAAArx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgLmEwyCgpKSi20tdPzyzJKE0C6srVz8gvLS5OzdVN10/JApqdH59YkKlfUpSaqp+SWgYAWHpK5LUAAAA=[0mdev
       ‘Jenkinsfile’ found
     Met criteria
+Changes detected: dev (6660d863c72a470b1bad065d5d0711acf6797d2a → 13564a1b66a1d8ca31493cbc13451e36b70d4c50)
 Scheduled build for branch: dev
 
   2 branches were processed
@@ -26,5 +27,5 @@ Scheduled build for branch: dev
 
 Finished examining houssem-g/django_api
 
-[Sun Aug 09 18:24:28 UTC 2020] Finished branch indexing. Indexing took 4.8 sec
+[Sun Aug 09 18:52:24 UTC 2020] Finished branch indexing. Indexing took 3.2 sec
 Finished: SUCCESS

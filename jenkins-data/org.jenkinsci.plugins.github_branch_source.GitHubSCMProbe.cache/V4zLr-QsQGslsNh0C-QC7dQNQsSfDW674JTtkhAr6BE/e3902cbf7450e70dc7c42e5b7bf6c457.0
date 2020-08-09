@@ -5,22 +5,23 @@ Authorization: Basic YWRtaW46NjVmNzk0MTc3ZTU0NWJhMmY2OGM2OTc0NmM4ZWI3Y2MxMWM1YTd
 Accept-Encoding: gzip
 HTTP/1.1 200 OK
 30
-Date: Sun, 09 Aug 2020 18:24:29 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
-Server: GitHub.com
-Status: 200 OK
-X-RateLimit-Limit: 5000
-X-RateLimit-Remaining: 4986
-X-RateLimit-Reset: 1597001048
-Cache-Control: private, max-age=60, s-maxage=60
-Vary: Accept, Authorization, Cookie, X-GitHub-OTP
-ETag: W/"bc9b48618f563df3cdcea701cba7256f"
-Last-Modified: Sun, 09 Aug 2020 16:37:03 GMT
 X-Poll-Interval: 300
 X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:repo_hook, delete:packages, delete_repo, gist, notifications, read:packages, read:public_key, repo, user, workflow, write:discussion, write:packages
 X-Accepted-OAuth-Scopes: repo
 X-GitHub-Media-Type: github.v3; format=json
+Content-Encoding: gzip
+Date: Sun, 09 Aug 2020 19:26:16 GMT
+Server: GitHub.com
+Status: 304 Not Modified
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4996
+X-RateLimit-Reset: 1597004700
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: "a53675929cde2cc18855c3b40d076115"
+Last-Modified: Sun, 09 Aug 2020 18:52:21 GMT
 Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
 Access-Control-Allow-Origin: *
 Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
@@ -30,11 +31,10 @@ X-XSS-Protection: 1; mode=block
 Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 Content-Security-Policy: default-src 'none'
 Vary: Accept-Encoding, Accept, X-Requested-With
-Content-Encoding: gzip
 Vary: Accept-Encoding
-X-GitHub-Request-Id: C8F3:9A20:68AC68F:7F15F34:5F303F5D
-OkHttp-Sent-Millis: 1596997468515
-OkHttp-Received-Millis: 1596997468685
+X-GitHub-Request-Id: CB14:9A22:E121C26:1132F151:5F304DD8
+OkHttp-Sent-Millis: 1597001175922
+OkHttp-Received-Millis: 1597001176110
 
 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 2
