@@ -39,6 +39,7 @@ pipeline {
         sh 'pylint ./backend/django_project --load-plugins pylint_django || exit 0'
       }
     }
+
     stage('Unit Test') {
       steps {
         sh 'docker-compose up django_back'
