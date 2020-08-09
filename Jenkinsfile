@@ -6,7 +6,7 @@ pipeline {
         scm = 'dev'
       }
       steps {
-        echo 'check git connection'
+        echo 'check connection'
       }
     }
 
