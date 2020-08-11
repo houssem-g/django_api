@@ -40,6 +40,12 @@ pipeline {
       }
     }
 
+    stage('Test Unitary') {
+      steps {
+        sh 'docker-compose up django_back'
+      }
+    }
+
   }
   post {
     always {
