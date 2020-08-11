@@ -8,7 +8,7 @@
       <causeBag class="linked-hash-map">
         <entry>
           <hudson.model.Cause_-UserIdCause>
-            <userId>houssem</userId>
+            <userId>root</userId>
           </hudson.model.Cause_-UserIdCause>
           <int>1</int>
         </entry>
@@ -26,7 +26,7 @@
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.8.3">
           <name>dev</name>
         </head>
-        <hash>16bcc2fdb333a28eaf8d6d9e30af596000439e69</hash>
+        <hash>ae8c42dba7760d77e2a5f879652b3e2977b93281</hash>
       </revision>
     </jenkins.scm.api.SCMRevisionAction>
     <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.6.3">
@@ -35,14 +35,14 @@
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.8.3">
           <name>dev</name>
         </head>
-        <hash>16bcc2fdb333a28eaf8d6d9e30af596000439e69</hash>
+        <hash>ae8c42dba7760d77e2a5f879652b3e2977b93281</hash>
       </revision>
     </jenkins.scm.api.SCMRevisionAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.17">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.7.1">
-      <stagesUUID>6d09bd68-13b1-4042-9407-e5f1d213af7f</stagesUUID>
+      <stagesUUID>18f021bb-9392-488f-8791-b910fb0f39e4</stagesUUID>
       <pipelineDefs>
         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@1.7.1">
           <stages>
@@ -140,7 +140,7 @@
                       </branches>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
                   </stages>
-                  <uuid>8540cba9-37e3-42cc-9382-e00090af0372</uuid>
+                  <uuid>9932166a-2f26-4e5e-8d8a-0ec9d8a03a01</uuid>
                 </parallel>
               </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
               <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
@@ -200,8 +200,33 @@
                   </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
                 </branches>
               </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Test Unitary</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">docker-compose up django_back</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
             </stages>
-            <uuid>6d09bd68-13b1-4042-9407-e5f1d213af7f</uuid>
+            <uuid>18f021bb-9392-488f-8791-b910fb0f39e4</uuid>
           </stages>
           <postBuild>
             <conditions>
@@ -229,16 +254,66 @@
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
       </pipelineDefs>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.3.0">
+      <buildsByBranchName>
+        <entry>
+          <string>dev</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.3.2">
+              <sha1>ae8c42dba7760d77e2a5f879652b3e2977b93281</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>dev</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>3</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/houssem-g/django_api.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.3.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>dev</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/jenkins_home/workspace/django_api_dev</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.11">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/houssem-g/django_api.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@2.9.1"/>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.82">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.23">
+      <names class="sorted-set">
+        <string>python:3.7.2</string>
+      </names>
+    </org.jenkinsci.plugins.docker.workflow.ImageAction>
   </actions>
   <queueId>7</queueId>
-  <timestamp>1597008185883</timestamp>
-  <startTime>1597008186022</startTime>
-  <result>FAILURE</result>
-  <duration>75922</duration>
+  <timestamp>1597142307123</timestamp>
+  <startTime>1597142307224</startTime>
+  <result>SUCCESS</result>
+  <duration>490501</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
-    <result>FAILURE</result>
+    <result>SUCCESS</result>
     <script>pipeline {
   agent any
   stages {
@@ -281,6 +356,12 @@
       }
     }
 
+    stage(&apos;Test Unitary&apos;) {
+      steps {
+        sh &apos;docker-compose up django_back&apos;
+      }
+    }
+
   }
   post {
     always {
@@ -294,31 +375,125 @@
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>1845692615</long>
+        <long>7227179456</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>20074323596</long>
+        <long>43008031755</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>18313191282</long>
+        <long>71873935904</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>6293947819</long>
+        <long>5928971631</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>1604093426</long>
+        <long>10314348764</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>17</iota>
-    <head>1:17</head>
+    <iota>77</iota>
+    <head>1:77</head>
     <done>true</done>
     <resumeBlocked>false</resumeBlocked>
   </execution>
   <completed>true</completed>
-  <checkouts class="hudson.util.PersistedList"/>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.3.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/dev:refs/remotes/origin/dev</refspec>
+            <url>https://github.com/houssem-g/django_api.git</url>
+            <credentialsId>github</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>dev</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.GithubWeb">
+          <url>https://github.com/houssem-g/django_api</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.CleanBeforeCheckout>
+            <deleteUntrackedNestedRepositories>false</deleteUntrackedNestedRepositories>
+          </hudson.plugins.git.extensions.impl.CleanBeforeCheckout>
+          <hudson.plugins.git.extensions.impl.CleanCheckout>
+            <deleteUntrackedNestedRepositories>false</deleteUntrackedNestedRepositories>
+          </hudson.plugins.git.extensions.impl.CleanCheckout>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>**</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/django_api_dev</workspace>
+      <changelogFile>/var/jenkins_home/jobs/django_api/branches/dev/builds/3/changelog1363788536717593829.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.3.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/dev:refs/remotes/origin/dev</refspec>
+            <url>https://github.com/houssem-g/django_api.git</url>
+            <credentialsId>github</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>dev</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.GithubWeb">
+          <url>https://github.com/houssem-g/django_api</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.CleanBeforeCheckout reference="../../../../org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout/scm/extensions/hudson.plugins.git.extensions.impl.CleanBeforeCheckout"/>
+          <hudson.plugins.git.extensions.impl.CleanCheckout reference="../../../../org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout/scm/extensions/hudson.plugins.git.extensions.impl.CleanCheckout"/>
+          <hudson.plugins.git.extensions.impl.LocalBranch reference="../../../../org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout/scm/extensions/hudson.plugins.git.extensions.impl.LocalBranch"/>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision plugin="git-client@3.3.2">
+                <sha1>ae8c42dba7760d77e2a5f879652b3e2977b93281</sha1>
+                <branches class="singleton-set">
+                  <hudson.plugins.git.Branch>
+                    <sha1 reference="../../../sha1"/>
+                    <name>dev</name>
+                  </hudson.plugins.git.Branch>
+                </branches>
+              </revision>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/django_api_dev@2</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
 </flow-build>

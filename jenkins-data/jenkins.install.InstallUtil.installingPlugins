@@ -1,18 +1,6 @@
 <map>
   <entry>
-    <string>timestamper</string>
-    <string>Success</string>
-  </entry>
-  <entry>
     <string>credentials-binding</string>
-    <string>Success</string>
-  </entry>
-  <entry>
-    <string>email-ext</string>
-    <string>Success</string>
-  </entry>
-  <entry>
-    <string>build-timeout</string>
     <string>Success</string>
   </entry>
   <entry>
@@ -24,7 +12,7 @@
     <string>Success</string>
   </entry>
   <entry>
-    <string>ant</string>
+    <string>pipeline-model-definition</string>
     <string>Success</string>
   </entry>
   <entry>
@@ -32,11 +20,67 @@
     <string>Success</string>
   </entry>
   <entry>
-    <string>ssh-slaves</string>
+    <string>pipeline-github-lib</string>
     <string>Success</string>
   </entry>
   <entry>
-    <string>pipeline-github-lib</string>
+    <string>matrix-project</string>
+    <string>Failure</string>
+  </entry>
+  <entry>
+    <string>pam-auth</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>git</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>ldap</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>cloudbees-folder</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>workflow-basic-steps</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>timestamper</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>email-ext</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>junit</string>
+    <string>Failure</string>
+  </entry>
+  <entry>
+    <string>github</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>build-timeout</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>echarts-api</string>
+    <string>Failure</string>
+  </entry>
+  <entry>
+    <string>ant</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>workflow-cps-global-lib</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>ssh-slaves</string>
     <string>Success</string>
   </entry>
   <entry>
@@ -56,23 +100,19 @@
     <string>Success</string>
   </entry>
   <entry>
-    <string>pam-auth</string>
-    <string>Success</string>
-  </entry>
-  <entry>
-    <string>git</string>
-    <string>Success</string>
-  </entry>
-  <entry>
     <string>ws-cleanup</string>
+    <string>Failure</string>
+  </entry>
+  <entry>
+    <string>lockable-resources</string>
     <string>Success</string>
   </entry>
   <entry>
-    <string>ldap</string>
-    <string>Success</string>
+    <string>jquery3-api</string>
+    <string>Failure</string>
   </entry>
   <entry>
-    <string>cloudbees-folder</string>
+    <string>git-server</string>
     <string>Success</string>
   </entry>
 </map>

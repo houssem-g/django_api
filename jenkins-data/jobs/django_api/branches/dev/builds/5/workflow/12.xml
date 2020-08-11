@@ -13,13 +13,13 @@
       <arguments>
         <entry>
           <string>name</string>
-          <string>Declarative: Post Actions</string>
+          <string>scm</string>
         </entry>
       </arguments>
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
     </cps.a.ArgumentsActionImpl>
     <wf.a.TimingAction plugin="workflow-api@2.40">
-      <startTime>1597008601244</startTime>
+      <startTime>1597145280453</startTime>
     </wf.a.TimingAction>
   </actions>
 </Tag>

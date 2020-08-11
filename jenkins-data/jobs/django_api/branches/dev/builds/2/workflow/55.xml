@@ -5,11 +5,13 @@
       <string>54</string>
     </parentIds>
     <id>55</id>
-    <startId>51</startId>
+    <startId>52</startId>
   </node>
   <actions>
+    <wf.a.BodyInvocationAction plugin="workflow-api@2.40"/>
     <wf.a.TimingAction plugin="workflow-api@2.40">
-      <startTime>1597007397353</startTime>
+      <startTime>1597139371445</startTime>
     </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
   </actions>
 </Tag>

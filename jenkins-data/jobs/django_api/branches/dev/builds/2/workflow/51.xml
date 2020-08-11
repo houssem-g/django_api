@@ -5,21 +5,29 @@
       <string>50</string>
     </parentIds>
     <id>51</id>
-    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
+    <descriptorId>org.jenkinsci.plugins.docker.workflow.WithContainerStep</descriptorId>
   </node>
   <actions>
     <s.a.LogStorageAction/>
     <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.82">
       <arguments>
         <entry>
-          <string>name</string>
-          <string>Declarative: Post Actions</string>
+          <string>args</string>
+          <string></string>
+        </entry>
+        <entry>
+          <string>image</string>
+          <string>python:3.7.2</string>
+        </entry>
+        <entry>
+          <string>toolName</string>
+          <null/>
         </entry>
       </arguments>
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
     </cps.a.ArgumentsActionImpl>
     <wf.a.TimingAction plugin="workflow-api@2.40">
-      <startTime>1597007395734</startTime>
+      <startTime>1597139247232</startTime>
     </wf.a.TimingAction>
   </actions>
 </Tag>

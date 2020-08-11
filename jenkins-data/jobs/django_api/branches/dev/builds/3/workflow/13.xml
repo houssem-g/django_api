@@ -10,18 +10,10 @@
   <actions>
     <wf.a.BodyInvocationAction plugin="workflow-api@2.40"/>
     <wf.a.LabelAction plugin="workflow-api@2.40">
-      <displayName>Declarative: Post Actions</displayName>
+      <displayName>scm</displayName>
     </wf.a.LabelAction>
     <wf.a.TimingAction plugin="workflow-api@2.40">
-      <startTime>1597008259366</startTime>
+      <startTime>1597142600813</startTime>
     </wf.a.TimingAction>
-    <wf.a.TagsAction plugin="workflow-api@2.40">
-      <tags>
-        <entry>
-          <string>SYNTHETIC_STAGE</string>
-          <string>POST</string>
-        </entry>
-      </tags>
-    </wf.a.TagsAction>
   </actions>
 </Tag>

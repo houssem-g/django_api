@@ -15,7 +15,7 @@
           <string>overrides</string>
           <list>
             <string>GIT_BRANCH=dev</string>
-            <string>GIT_COMMIT=16bcc2fdb333a28eaf8d6d9e30af596000439e69</string>
+            <string>GIT_COMMIT=ae8c42dba7760d77e2a5f879652b3e2977b93281</string>
             <string>GIT_LOCAL_BRANCH=dev</string>
             <string>GIT_URL=https://github.com/houssem-g/django_api.git</string>
           </list>
@@ -24,7 +24,7 @@
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
     </cps.a.ArgumentsActionImpl>
     <wf.a.TimingAction plugin="workflow-api@2.40">
-      <startTime>1597007366213</startTime>
+      <startTime>1597138466745</startTime>
     </wf.a.TimingAction>
   </actions>
 </Tag>

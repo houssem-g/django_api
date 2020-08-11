@@ -1,20 +1,20 @@
-Started by user [8mha:////4Aq7WsnqQTZo5a3eghtp7ikNxhbszmN3TO6iPbgT1Vd0AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9jPzS4uLUXABkn/HfwgAAAA==[0mhoussem
-[Sun Aug 09 21:01:34 UTC 2020] Starting branch indexing...
-[8mha:////4DaL5vOwMxIjMuV/h8U9aAlkDTNrzY0zJZENkee31F/uAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTxVfYIMQCzhCoNjgAAAA==[0mConnecting to https://api.github.com using houssem/****** (GitHub Access Token)
-Examining [8mha:////4EhtTHYH8+AjpdCMgezbPPV6wHTWJNIQG42+fl5v5xCQAAAAph+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKWFQzygpKSi20tdPzyzJKE0C6srVz8gvLS5OzdVN10/JApqdH59YkAkAlVgjE6wAAAA=[0mhoussem-g/django_api
+Started by user [8mha:////4Erda0OhMm0tp7pNXyLyiBu3/Y1CSqJwQ/f4KwIY1pZ/AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9ovz8EgDKVWzSvwAAAA==[0mroot
+[Tue Aug 11 09:28:47 UTC 2020] Starting branch indexing...
+[8mha:////4AUDE4CHv2t10bx/lvdUgmpdGGDCtCCPPNXqOBfocHD5AAAAhR+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTxnZun1wIA3mDq8Y4AAAA=[0mConnecting to https://api.github.com using root/****** (GitHub Access Token)
+Examining [8mha:////4MDSeC9vh71vApf47RF7zJgm/DZqkiHSpp7mELZYDGEUAAAAph+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKWFQzygpKSi20tdPzyzJKE0C6srVz8gvLS5OzdVN10/JApqdH59YkAkAlVgjE6wAAAA=[0mhoussem-g/django_api
 
   Checking branches...
 
   Getting remote branches...
 
-    Checking branch [8mha:////4GmR+U9DsxWwnzu2QaST6hEmRfCK4rRGQAqMDqnlfBfkAAAAsR+LCAAAAAAAAP9dzLENwjAQBdAjiAxAiViBXIFEAUpFA1JEwwDIwMl2cGzLPqOwBmtAwxCMww4EpeM3/zf/PT8wigGmKp2js8XJ2egMFZubp2C0vewc06J8vMq7f2eQbSE3ZCWrCoYpGIZxVYurQCOsxD0HbeWqDTD549Z9/zDoM8gAWt+NnGGumH1cIkrNKh27V4PKpRipmUk8153tDsJr5ECEjYhM4QsPrEfeuAAAAA==[0mmaster
+    Checking branch [8mha:////4KopDQAHXEsz8zd3MMUpVvfHdCmCpMGYA08mb6DcREbeAAAAsR+LCAAAAAAAAP9dzLENwjAQBdAjiAxAiViBXIFEAUpFA1JEwwDIwMl2cGzLPqOwBmtAwxCMww4EpeM3/zf/PT8wigGmKp2js8XJ2egMFZubp2C0vewc06J8vMq7f2eQbSE3ZCWrCoYpGIZxVYurQCOsxD0HbeWqDTD549Z9/zDoM8gAWt+NnGGumH1cIkrNKh27V4PKpRipmUk8153tDsJr5ECEjYhM4QsPrEfeuAAAAA==[0mmaster
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4OegzeOhjvN82laC920VodycattNVQoOFOfvZu88+lAjAAAArx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgLmEwyCgpKSi20tdPzyzJKE0C6srVz8gvLS5OzdVN10/JApqdH59YkKlfUpSaqp+SWgYAWHpK5LUAAAA=[0mdev
+    Checking branch [8mha:////4BL4Uw0Kq/RwP+ihcrYa66Iw/2QLChnRnr4dmQMX/WLnAAAArx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgLmEwyCgpKSi20tdPzyzJKE0C6srVz8gvLS5OzdVN10/JApqdH59YkKlfUpSaqp+SWgYAWHpK5LUAAAA=[0mdev
       ‘Jenkinsfile’ found
     Met criteria
-Changes detected: dev (7548f2e9136892f7bc9bca9e9915553e4d2d60b8 → 16bcc2fdb333a28eaf8d6d9e30af596000439e69)
+Changes detected: dev (ea82e02b73a0eae53222caf6475d154163c9002e → ae8c42dba7760d77e2a5f879652b3e2977b93281)
 Scheduled build for branch: dev
 
   2 branches were processed
@@ -27,5 +27,5 @@ Scheduled build for branch: dev
 
 Finished examining houssem-g/django_api
 
-[Sun Aug 09 21:01:38 UTC 2020] Finished branch indexing. Indexing took 3.9 sec
+[Tue Aug 11 09:28:53 UTC 2020] Finished branch indexing. Indexing took 5.7 sec
 Finished: SUCCESS
