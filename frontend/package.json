@@ -12,7 +12,7 @@
     "@vaadin/vaadin-text-field": "^2.6.2",
     "@webcomponents/webcomponentsjs": "^2.4.3",
     "antd": "^4.4.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "dotenv-webpack": "^2.0.0",
     "enzyme": "^3.11.0",
